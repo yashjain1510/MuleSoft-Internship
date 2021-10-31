@@ -1,0 +1,10 @@
+CREATE TABLE MOVIES(
+  Name TEXT NOT NULL,
+  Actor TEXT NOT NULL, 
+  Actress TEXT NOT NULL, 
+  Director TEXT NOT NULL, 
+  Year_of_release NOT NULL
+);
+INSERT INTO MOVIES VALUES ('Golmaal', 'Ajay', 'Rimi', 'Rohit', 2000),('Golmaal Returns', 'Arshad', 'Kareena','Rohit',2008);
+SELECT * FROM MOVIES;
+SELECT Name FROM MOVIES where Actor="Ajay";
